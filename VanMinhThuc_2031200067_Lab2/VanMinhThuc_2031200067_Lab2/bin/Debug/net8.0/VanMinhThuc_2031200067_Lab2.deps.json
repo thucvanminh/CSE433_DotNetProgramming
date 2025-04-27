@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VanMinhThuc_2031200067_Lab2/1.0.0": {
+        "runtime": {
+          "VanMinhThuc_2031200067_Lab2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VanMinhThuc_2031200067_Lab2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

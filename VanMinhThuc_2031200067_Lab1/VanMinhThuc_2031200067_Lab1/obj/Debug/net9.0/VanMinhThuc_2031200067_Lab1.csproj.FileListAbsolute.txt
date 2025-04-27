@@ -1,0 +1,14 @@
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\bin\Debug\net9.0\VanMinhThuc_2031200067_Lab1.exe
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\bin\Debug\net9.0\VanMinhThuc_2031200067_Lab1.deps.json
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\bin\Debug\net9.0\VanMinhThuc_2031200067_Lab1.runtimeconfig.json
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\bin\Debug\net9.0\VanMinhThuc_2031200067_Lab1.dll
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\bin\Debug\net9.0\VanMinhThuc_2031200067_Lab1.pdb
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.AssemblyInfoInputs.cache
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.AssemblyInfo.cs
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.dll
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\refint\VanMinhThuc_2031200067_Lab1.dll
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.pdb
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\VanMinhThuc_2031200067_Lab1.genruntimeconfig.cache
+C:\Users\ASUS\RiderProjects\VanMinhThuc_2031200067_Lab1\VanMinhThuc_2031200067_Lab1\obj\Debug\net9.0\ref\VanMinhThuc_2031200067_Lab1.dll
