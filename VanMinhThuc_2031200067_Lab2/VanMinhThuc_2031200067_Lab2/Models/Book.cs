@@ -1,6 +1,8 @@
-﻿namespace VanMinhThuc_2031200067_Lab2.Models;
+﻿using VanMinhThuc_2031200067_Lab2.Interfaces;
 
-public class Book
+namespace VanMinhThuc_2031200067_Lab2.Models;
+
+public class Book : IPrintable
 {
     private string _isbn;
     private string _title;
@@ -9,14 +11,14 @@ public class Book
     private int _copiesAvailable;
 
 
-    public Book(string isbn, string title, string author, int year, int copiesAvailable)
-    {
-        _isbn = isbn;
-        _title = title;
-        _author = author;
-        _year = year;
-        _copiesAvailable = copiesAvailable;
-    }
+    // public Book(string isbn, string title, string author, int year, int copiesAvailable)
+    // {
+    //     _isbn = isbn;
+    //     _title = title;
+    //     _author = author;
+    //     _year = year;
+    //     _copiesAvailable = copiesAvailable;
+    // }
 
     public string ISBN
     {
@@ -36,7 +38,7 @@ public class Book
         set { _author = value; }
     }
 
-    public int Year
+    public int Year 
     {
         get { return _year; }
         set
@@ -72,5 +74,9 @@ public class Book
     {
         Console.WriteLine(
             $"ISBN: {_isbn} \n Title: {_title} \n Author: {_author} \n Year: {_year} \n Copies Available: {_copiesAvailable}");
+    }
+    public void PrintDetails()
+    {
+        Console.WriteLine($"ISBN: {_isbn}, Title: {_title}, Author: {_author}, Year: {_year}, Copies Available: {_copiesAvailable}");
     }
 }
