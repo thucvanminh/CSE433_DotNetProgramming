@@ -15,13 +15,10 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var _books = BookController._books;
+        return View(_books);
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

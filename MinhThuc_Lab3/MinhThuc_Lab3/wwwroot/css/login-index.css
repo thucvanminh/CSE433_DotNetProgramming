@@ -1,0 +1,86 @@
+﻿.login-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .input-group label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .input-group input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+    .options .forgot {
+        text-decoration: none;
+        color: #6c63ff;
+    }
+
+.login-btn {
+    margin-top: 20px;
+    background-color: #3e3a9e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.activate-btn {
+    margin-top: 15px;
+    background-color: white;
+    color: green;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .register-text a {
+        color: #6c63ff;
+        text-decoration: none;
+    }

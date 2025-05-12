@@ -1,0 +1,57 @@
+﻿
+
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.left img {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+    max-width: 500px;
+}
+
+    .right h2 {
+        font-size: 24px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+    }
+
+    .right h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .right p {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+.read-btn {
+    background-color: #2e9e42;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.read-btn:hover {
+    background-color: #257a34;
+}
+.book-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}

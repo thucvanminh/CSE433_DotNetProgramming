@@ -1,0 +1,24 @@
+﻿@model MinhThuc_Lab3.Models.Book
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/book-index.css" asp-append-version="true" />
+}
+
+<div class="container">
+    <div class="book-content">
+        <div class="left">
+            <img src="@Model.ImageUrl" alt="Bìa sách Toán 6 Tập 2" />
+        </div>
+        <div class="right">
+            <h2>Thông tin chi tiết</h2>
+            <h3>@Model.Title</h3>
+            <p><strong>Chuyên mục:</strong> @Model.Genre</p>
+            <p><strong>Tác giả:</strong> @Model.Author</p>
+            <p><strong>Nhà xuất bản:</strong> @Model.Publisher</p>
+            <p><strong>Xuất bản năm:</strong> @Model.PublishedDate.ToString("dd/MM/yyyy")</p>
+            <p><strong>Giới thiệu:</strong> @Model.Description</p>
+            <button class="read-btn">Đọc sách online</button>
+        </div>
+    </div>
+</div>
