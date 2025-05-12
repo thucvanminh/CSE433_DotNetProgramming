@@ -2,28 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<section class="banner">
-    <div class="banner-content">
-        <h1>Thư viện Số</h1>
-    </div>
-</section>
 <div class="text-center">
-    <h2 class="section-title">TÀI LIỆU SỐ SÁCH THAM KHẢO (CẤP 2)</h2>
-    <div class="book-grid">
-        @foreach (var book in Model)
-        {
-            <div class="book-card">
-                <a asp-route-id="@book.Id" asp-controller="Book" asp-action="Index">
-                    <img src="@book.ImageUrl" alt="@book.Title">
-                </a>
-                <p>@book.Title</p>
-                <p>@book.Author</p>
-                <button>Đọc sách online</button>
-            </div>
-        }
-    </div>   
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-
-<script>
-
-</script>
