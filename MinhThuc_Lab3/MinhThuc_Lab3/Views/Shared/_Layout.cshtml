@@ -1,60 +1,60 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MinhThuc_Lab3</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    @RenderSection("Styles", required: false)
-    <link rel="stylesheet" href="~/MinhThuc_Lab3.styles.css" asp-append-version="true" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - MinhThuc_Lab3</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	@RenderSection("Styles", required: false)
+	<link rel="stylesheet" href="~/MinhThuc_Lab3.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <div class="top-bar">
-            <div class="logo">
-                <img src ="/images/logo.png" alt="Library">
-            </div>
+	<header>
+		<div class="top-bar">
+			<div class="logo">
+				<img src="/images/logo.png" alt="Library">
+			</div>
 
-            <div class="search-container">
-                <input type="text" placeholder="Nhập từ khóa để tìm kiếm...">
-                <button>Tìm</button>
-            </div>
+			<div class="search-container">
+				<input type="text" placeholder="Nhập từ khóa để tìm kiếm...">
+				<button>Tìm</button>
+			</div>
 
-            <div class="auth-buttons">
-                <a asp-controller="Login" asp-action="Index">Đăng nhập</a>
-                <a asp-controller="SignUp" asp-action="Index">Đăng ký</a>
-            </div>
-        </div>
+			<div class="auth-buttons">
+				<a asp-controller="Login" asp-action="Index">Đăng nhập</a>
+				<a asp-controller="SignUp" asp-action="Index">Đăng ký</a>
+			</div>
+		</div>
 
-        <div class="sub-header">
-            <select class="book-category">
-                <option>-- Chọn danh mục sách --</option>
-                <option>Âm nhạc</option>
-                <option>Mỹ thuật</option>
-                <option>Khoa học tự nhiên</option>
-                <option>Công nghệ</option>
-            </select>
+		<div class="sub-header">
+			<select class="book-category">
+				<option>-- Chọn danh mục sách --</option>
+				<option>Âm nhạc</option>
+				<option>Mỹ thuật</option>
+				<option>Khoa học tự nhiên</option>
+				<option>Công nghệ</option>
+			</select>
 
-            <nav class="main-nav">
-                <a href="#" asp-controller="Home" asp-action="Index">Trang chủ</a>
-                <a href="#">Tài liệu số</a>
-                <a href="#">Sách tham khảo</a>
-                <a href="#">Giới thiệu</a>
-                <a href="#">Liên hệ</a>
-                <a href="#">Quản trị</a>
-            </nav>
-        </div>
-    </header>
+			<nav class="main-nav">
+				<a asp-controller="Home" asp-action="Index">Trang chủ</a>
+				<a asp-controller="Home" asp-action="Index">Tài liệu số</a>
+				<a asp-controller="Home" asp-action="Index"> Sách tham khảo</a>
+				<a asp-controller="Home" asp-action="Index">Giới thiệu</a>
+				<a asp-controller="Home" asp-action="Index">Liên hệ</a>
+				<a asp-controller="Home" asp-action="Index">Quản trị</a>
+			</nav>
+		</div>
+	</header>
 
-    
 
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+	<main role="main" class="pb-3">
+		@RenderBody()
+	</main>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
