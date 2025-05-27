@@ -13,11 +13,12 @@
         @foreach (var book in Model)
         {
             <div class="book-card">
-                <a asp-route-id="@book.Id" asp-controller="Book" asp-action="Index">
+                <a asp-route-id="@book.Id" asp-controller="Book" asp-action="Detail">
                     <img src="@book.ImageUrl" alt="@book.Title">
                 </a>
                 <p>@book.Title</p>
                 <p>@book.Author</p>
+                <p>@book.Description</p>
                 <button>Đọc sách online</button>
             </div>
         }

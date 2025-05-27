@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using MinhThuc_Lab3.Models;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Lab3DotnetContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
+
 
 var app = builder.Build();
 

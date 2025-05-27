@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|c:\\thucs\\githubfiles\\cse433_dotnetprogramming\\minhthuc_lab3\\minhthuc_lab3\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|solutionrelative:minhthuc_lab3\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|c:\\thucs\\githubfiles\\cse433_dotnetprogramming\\minhthuc_lab3\\minhthuc_lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|solutionrelative:minhthuc_lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|c:\\thucs\\githubfiles\\cse433_dotnetprogramming\\minhthuc_lab3\\minhthuc_lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4AAE4D55-C8A6-4455-998F-9EC3BBCCD8AC}|MinhThuc_Lab3\\MinhThuc_Lab3.csproj|solutionrelative:minhthuc_lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,19 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T09:55:41.233Z",
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Controllers\\BookController.cs",
+              "RelativeToolTip": "MinhThuc_Lab3\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:20:36.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MinhThuc_Lab3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:20:29.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MinhThuc_Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T15:19:27.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T15:19:05.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "MinhThuc_Lab3\\Views\\Book\\Index.cshtml",
@@ -55,20 +102,7 @@
               "RelativeToolTip": "MinhThuc_Lab3\\Views\\Book\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T09:55:30.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Thucs\\GithubFiles\\CSE433_DotNetProgramming\\MinhThuc_Lab3\\MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MinhThuc_Lab3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T09:55:16.755Z",
+              "WhenOpened": "2025-05-25T15:18:55.262Z",
               "EditorCaption": ""
             }
           ]
