@@ -1,29 +1,42 @@
-﻿namespace MinhThuc_Lab3.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace MinhThuc_Lab3.Models;
 
 public class Book
 {
-    public int Id { get; set; }
+    [Key]
+    public int BookId { get; set; }
+
+    [Required]
+    [StringLength(200)]
     public string Title { get; set; }
-    public string Author { get; set; }
-    public string Publisher { get; set; }
-    public DateTime PublishedDate { get; set; }
-    public string Genre { get; set; }
+
     public string Description { get; set; }
-    public string ImageUrl { get; set; }
 
-    public string FormattedPublishedDate => PublishedDate.ToString("dd/MM/yyyy");
+    public string BookCode { get; set; }
 
-    public Book(int id, string title, string author, string publisher, DateTime publishedDate, string genre, string description, string imageUrl)
-    {
-        Id = id;
-        Title = title;
-        Author = author;
-        Publisher = publisher;
-        PublishedDate = publishedDate;
-        Genre = genre;
-        Description = description;
-        ImageUrl = imageUrl;
-    }
+    public string Publisher { get; set; }
 
+    public DateTime PublishedYear { get; set; }
 
+    [ForeignKey("Category")]
+    public int CategoryId { get; set; }
+
+    [ForeignKey("Author")]
+    public int AuthorId { get; set; }
+
+    public int TotalCopies { get; set; }
+
+    public int AvailableCopies { get; set; }
+
+    public DateTime CreatedDate { get; set; }
+
+    public string Avatar { get; set; }
+
+    public string Pdf { get; set; }
+
+    public virtual Category Category { get; set; }
+    public virtual Author Author { get; set; }
+    public virtual ICollection<Loan> Loans { get; set; }
 }

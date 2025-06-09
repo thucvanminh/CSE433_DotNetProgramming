@@ -1,30 +1,12 @@
-﻿@{
+﻿@model List<Carousel>
+@{
     ViewData["Title"] = "Home Page";
 }
-
-<section class="banner">
-    <div class="banner-content">
-        <h1>Thư viện Số</h1>
+<div class="container">
+    <h2>Danh sách sách</h2>
+    @await Html.PartialAsync("_Carousel", Model)
+    <!-- Nội dung sách (từ Practice Assignment 3) -->
+    <div class="row">
+        <!-- Thêm mã hiển thị sách nếu cần -->
     </div>
-</section>
-<div class="text-center">
-    <h2 class="section-title">TÀI LIỆU SỐ SÁCH THAM KHẢO (CẤP 2)</h2>
-    <div class="book-grid">
-        @foreach (var book in Model)
-        {
-            <div class="book-card">
-                <a asp-route-id="@book.Id" asp-controller="Book" asp-action="Detail">
-                    <img src="@book.ImageUrl" alt="@book.Title">
-                </a>
-                <p>@book.Title</p>
-                <p>@book.Author</p>
-                <p>@book.Description</p>
-                <button>Đọc sách online</button>
-            </div>
-        }
-    </div>   
 </div>
-
-<script>
-
-</script>

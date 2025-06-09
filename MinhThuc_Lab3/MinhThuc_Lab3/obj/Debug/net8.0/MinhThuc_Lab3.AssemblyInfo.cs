@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinhThuc_Lab3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f57aa622a5788b5e93d47d7bb3c8537aa7b9a31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c85f84375051d136b58c1d0e63ddc57c72de126")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinhThuc_Lab3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinhThuc_Lab3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

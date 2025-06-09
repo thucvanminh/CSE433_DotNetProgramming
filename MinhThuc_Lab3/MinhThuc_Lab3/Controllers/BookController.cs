@@ -28,7 +28,7 @@ public class BookController : Controller
     }
     public IActionResult Detail(int id)
     {
-        var book = _context.Books.FirstOrDefault(b => b.Id == id);
+        var book = _context.Books.FirstOrDefault(b => b.BookId == id);
         if (book == null)
         {
             return NotFound();
@@ -36,5 +36,7 @@ public class BookController : Controller
 
         return View(book);
     }
+
+    
 
 }
